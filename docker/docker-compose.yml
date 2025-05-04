@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  media_inference:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8003:8003"
